@@ -7,6 +7,7 @@ Array.prototype.flat = function(level = 1) {
     function makeFlat(arr) {
         for (let i = 0; i < arr.length; i++) {
             const el = arr[i]
+            if (el === undefined) continue
             if (!Array.isArray(el) || Array.isArray(el) && nestedLevel == level) {
                 flatArray.push(el)
             } else {
