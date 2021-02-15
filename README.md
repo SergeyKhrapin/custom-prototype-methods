@@ -2,5 +2,5 @@
 
 Custom implementation of the existing native methods
 
-Array.prototype.flat()
-Function.prototype.bind()
+# Array.prototype.flat()
+# Function.prototype.bind()
